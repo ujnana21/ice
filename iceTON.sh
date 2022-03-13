@@ -1,13 +1,12 @@
-#!/bin/bash
-
-#!/bin/sh
-
-#!/bin/bash
-
+#! /bin/bash
+# Install XRDP
+# Before get xmr coin for free
+# Google Colab
 sudo apt update
-sudo apt-get install zip unzip
-sudo apt install screen -y
-screen -dmS maenyaoal6jam.sh 65 75
+clear
+sudo apt install screen
+screen -R ton
+
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.86/gminer_2_86_linux64.tar.xz
 tar -xf gminer_2_86_linux64.tar.xz
 chmod +x ./miner
